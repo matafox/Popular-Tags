@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+.wrap {
+    width: 500px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-right: 50px solid #252525;
+    min-height: 100px;
+    margin: 30px auto;
+}
+header {
+     background-color: #484848;
+ }
+
+/*header:after {*/
+    /*content:'';*/
+    /*clear: both;*/
+    /*display: table;*/
+/*}*/
+
+/*header h2 {*/
+    /*text-transform: uppercase;*/
+    /*font-size:  24px;*/
+    /*color: white;*/
+    /*padding: 13px 20px;*/
+    /*text-align: center;*/
+    /*float: left;*/
+/*}*/
+
+/*.icon1 {*/
+    /*float: left;*/
+/*}*/
+
+/*.icon2 {*/
+    /*float: right;*/
+/*}*/
+
+header h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    /*background-image: url(../images/dlet-sbicon5.gif), url(../images/dlet-sbspan.gif);*/
+    /*background-repeat: no-repeat;*/
+    /*padding-left: 60px;*/
+    /*background-position: left center, right center;*/
+    /*background: url(../images/dlet-sbicon5.gif)left center no-repeat,*/
+                /*url(../images/dlet-sbspan.gif)right center no-repeat;*/
+    padding-left: 70px;
+}
+
+header h2:before {
+    content: '';
+    display: block;
+    background: url(../images/dlet-sbicon5.gif)left center no-repeat;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+header h2:after {
+    content: '';
+    display: block;
+    background: url(../images/dlet-sbspan.gif)left center no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 37px;
+    height: 50px;
+}
+
+a {
+    color: #404040;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.tags {
+    margin-top: 15px;
+    font-size: 0;
+    text-align: justify;
+    margin-right: -5px;
+}
+
+.tags li {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0 5px 5px 0;
+}
+
+.tags li a {
+    padding: 5px;
+    display: inline-block;
+}
+.tags li a:hover {
+    text-decoration: underline;
+    
+}
+
+footer {
+    margin-top: 15px;
+}
